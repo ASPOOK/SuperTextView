@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // 为某段文本设置超链接，还可配置超链接文本的颜色
         mSuperTextView.setURLSpan("http://aspook.com", 64, 66);
         mSuperTextView.setURLSpan("tel:18888888888", 72, 74);
-        mSuperTextView.setURLSpan("mailto:yourswee@google.com", 80, 82);
+        mSuperTextView.setURLSpan("mailto:yourswee@gmail.com", 80, 82);
         mSuperTextView.setURLSpan("geo:31.231365,121.492885", 88, 90);
         mSuperTextView.setURLSpan("sms:18888888888", 96, 98);
         mSuperTextView.setLinkTextColor(Color.BLUE);// 设置超链接的颜色
