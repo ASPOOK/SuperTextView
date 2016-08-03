@@ -52,19 +52,19 @@ public class MainActivity extends AppCompatActivity {
         mSuperTextView.setStyleSpan(Typeface.BOLD_ITALIC, 124, 130);
 
         // 为某段文本设置特殊字体
-        mSuperTextView.setTypefaceSpan("sans-serif", 131, 141);
+        mSuperTextView.setTypefaceSpan("cursive", 143, 150);
 
         // 为某段文本设置下划线
-        mSuperTextView.setUnderlineSpan(150, 153);
+        mSuperTextView.setUnderlineSpan(159, 162);
 
         // 为某段文本设置删除线
-        mSuperTextView.setStrikethroughSpan(162, 165);
+        mSuperTextView.setStrikethroughSpan(171, 174);
 
         // 为某段文本设置绝对字体大小
-        mSuperTextView.setAbsoluteSizeSpan(90, false, 184, 198);
+        mSuperTextView.setAbsoluteSizeSpan(90, false, 192, 207);
 
         // 为某段文本设置相对字体大小
-        mSuperTextView.setRelativeSizeSpan(0.5f, 218, 234);
+        mSuperTextView.setRelativeSizeSpan(0.5f, 227, 243);
 
         // 为某段文本设置点击响应
         mSuperTextView.setClickableSpan(new ClickableSpan() {
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View widget) {
                 Toast.makeText(MainActivity.this, "these text was clicked", Toast.LENGTH_SHORT).show();
             }
-        }, 244, 250);
+        }, 253, 259);
 
         // 为SuperTextView设置表情图片
         mSuperTextView.appendImageSpan(this, R.drawable.emoji_love);
