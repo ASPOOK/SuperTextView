@@ -17,6 +17,10 @@ import android.text.style.UnderlineSpan;
  */
 public class SpanFactory {
 
+    private SpanFactory() {
+
+    }
+
     public static Object getForegroundColorSpan(int color) {
         ForegroundColorSpan span = new ForegroundColorSpan(color);
 
