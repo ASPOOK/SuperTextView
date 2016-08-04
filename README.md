@@ -15,19 +15,21 @@
 
 ### How to use###
 
-First,declare SuperTextView in the xml as follows:
+1. Gradle
 
-```xml
-<com.aspook.library.SuperTextView
-    android:id="@+id/tv_super"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textSize="20sp" />
-```
+   `compile 'com.aspook.supertextview:library:1.0.0'`
 
-or initialize it by code.
+2. Declare SuperTextView in the xml as follows or initialize it by code.
 
-Second,in the Activity ，we can use SuperTextView like this:
+   ```xml
+   <com.aspook.library.SuperTextView
+       android:id="@+id/tv_super"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp" />
+   ```
+
+3. In the Activity ，you can use SuperTextView like this:
 
 ```java
 SuperTextView mSuperTextView = (SuperTextView) findViewById(R.id.tv_super);
@@ -93,4 +95,12 @@ mSuperTextView.appendImageSpan(this, R.drawable.emoji_naughty);
 ### Example###
 
 ![image](https://github.com/aspook/SuperTextView/raw/master/screenshot/super_textview.jpg)
+
+### License###
+
+This project is subject to the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html).
+
+
+
+
 
